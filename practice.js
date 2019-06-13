@@ -93,10 +93,10 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 function evenFinder(nums){
   let evenNums = []
   for (i = 0; i < nums.length; i++){
-    if (i % 2 === 0){
-      evenNums.push(i)
+    if (nums[i] % 2 === 0){
+      evenNums.push(nums[i])
     }
-  }
+  } return evenNums;
 }
 
 
@@ -126,7 +126,13 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 */
 
 //Code Here
-
+function divider(numbersArray){
+  for(i = 0; i < numbersArray.length; i++){
+    if(numbersArray[i] % 2 === 0){
+      return numbersArray.push(i[0])
+    }
+  }
+}
 
 
 ////////// PROBLEM 7 //////////
